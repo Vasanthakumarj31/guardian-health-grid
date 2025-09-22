@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -30,6 +31,22 @@ export default {
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
           foreground: "hsl(var(--destructive-foreground))",
+        },
+        emergency: {
+          DEFAULT: "hsl(var(--emergency))",
+          foreground: "hsl(var(--emergency-foreground))",
+        },
+        government: {
+          DEFAULT: "hsl(var(--government))",
+          foreground: "hsl(var(--government-foreground))",
+        },
+        worker: {
+          DEFAULT: "hsl(var(--worker))",
+          foreground: "hsl(var(--worker-foreground))",
+        },
+        healthcare: {
+          DEFAULT: "hsl(var(--healthcare))",
+          foreground: "hsl(var(--healthcare-foreground))",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
